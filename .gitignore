@@ -1,0 +1,24 @@
+# 构建产物 / 缓存（不入库）
+dist/
+build/
+spec/
+*.spec
+build_old_*/
+spec_old_*/
+dist_old_*/
+_old_*/
+__pycache__/
+*.pyc
+
+# 验证/探针产物
+_tmp_home/
+_probe_result.txt
+_probe_shots/
+screenshots_v11/
+# 真实扫描报告含本机真实安装软件清单，不公开
+screenshots/真实扫描报告样例.md
+screenshots/真实扫描报告样例.html
+probe_result.json
+
+# 运行日志
+*_error.log
